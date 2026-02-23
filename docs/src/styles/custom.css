@@ -7,15 +7,15 @@
 /* Colors (dark mode) */
 :root,
 ::backdrop {
-    --sl-color-accent: hsl(241, 75%, 64%);
-    --sl-color-text-accent: hsl(241, 90%, 82%);
+    --sl-color-accent: hsl(153, 65%, 46%);
+    --sl-color-text-accent: hsl(153, 65%, 60%);
 }
 
 /* Colors (light mode) */
 :root[data-theme='light'],
 [data-theme='light'] ::backdrop {
-    --sl-color-accent: hsl(241, 63%, 59%);
-    --sl-color-text-accent: hsl(241, 63%, 55%);
+    --sl-color-accent: hsl(153, 60%, 53%);
+    --sl-color-text-accent: hsl(153, 55%, 38%);
 }
 
 /* Align site search */
@@ -43,12 +43,12 @@
 }
 
 [data-has-hero] .page {
-    --hero-gradient: hsla(241, 63%, 59%, 0.2);
+    --hero-gradient: hsla(153, 60%, 53%, 0.2);
     background: linear-gradient(205deg, var(--hero-gradient), transparent 30%);
 }
 
 [data-has-hero][data-theme="dark"] .page {
-    --hero-gradient: hsla(241, 63%, 59%, 0.25);
+    --hero-gradient: hsla(153, 60%, 53%, 0.25);
 }
 
 [data-has-hero] .hero {
@@ -84,7 +84,7 @@
 
 @media (min-width: 50rem) {
     [data-has-hero] .page {
-        --hero-gradient: hsla(241, 63%, 59%, 0.2);
+        --hero-gradient: hsla(153, 60%, 53%, 0.2);
         background: linear-gradient(205deg, var(--hero-gradient), transparent 50%);
     }
 

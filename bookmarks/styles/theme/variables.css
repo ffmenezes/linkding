@@ -11,9 +11,9 @@
   --gray-800: rgb(31, 41, 55);
   --gray-900: rgb(17, 24, 39);
 
-  --primary-color: hsl(241, 63%, 59%);
-  --primary-color-highlight: hsl(241, 63%, 64%);
-  --primary-color-shade: hsl(241, 63%, 59%, 0.075);
+  --primary-color: hsl(153, 60%, 53%);
+  --primary-color-highlight: hsl(153, 60%, 58%);
+  --primary-color-shade: hsl(153, 60%, 53%, 0.075);
 
   --alternative-color: hsl(179, 94%, 29%);
   --alternative-color-dark: hsl(179, 94%, 22%);
@@ -35,10 +35,10 @@
   --secondary-text-color: var(--gray-500);
   --tertiary-text-color: var(--gray-500);
   --contrast-text-color: #fff;
-  --primary-text-color: hsl(241, 63%, 55%);
+  --primary-text-color: hsl(153, 55%, 38%);
 
   --link-color: var(--primary-text-color);
-  --secondary-link-color: hsla(241, 63%, 54%, 0.8);
+  --secondary-link-color: hsla(153, 55%, 38%, 0.8);
 
   --icon-color: var(--gray-500);
 

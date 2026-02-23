@@ -1,21 +1,21 @@
 @import "theme-light.css";
 
 :root {
-  /* Color palette */
-  --contrast-5: hsla(241, 65%, 85%, 0.06);
-  --contrast-10: hsla(241, 60%, 80%, 0.14);
-  --contrast-20: hsla(241, 64%, 82%, 0.23);
-  --contrast-30: hsla(241, 69%, 84%, 0.32);
-  --contrast-40: hsla(241, 73%, 86%, 0.41);
-  --contrast-50: hsla(241, 78%, 88%, 0.5);
-  --contrast-60: hsla(241, 82%, 90%, 0.58);
-  --contrast-70: hsla(241, 87%, 92%, 0.69);
-  --contrast-80: hsla(241, 91%, 94%, 0.8);
-  --contrast-90: hsla(241, 96%, 96%, 0.9);
+  /* Color palette - neutral with subtle green tint (Supabase style) */
+  --contrast-5: hsla(150, 8%, 85%, 0.06);
+  --contrast-10: hsla(150, 6%, 80%, 0.14);
+  --contrast-20: hsla(150, 8%, 82%, 0.23);
+  --contrast-30: hsla(150, 10%, 84%, 0.32);
+  --contrast-40: hsla(150, 12%, 86%, 0.41);
+  --contrast-50: hsla(150, 14%, 88%, 0.5);
+  --contrast-60: hsla(150, 16%, 90%, 0.58);
+  --contrast-70: hsla(150, 18%, 92%, 0.69);
+  --contrast-80: hsla(150, 20%, 94%, 0.8);
+  --contrast-90: hsla(150, 22%, 96%, 0.9);
 
-  --primary-color: hsl(241, 75%, 64%);
-  --primary-color-highlight: hsl(241, 75%, 68%);
-  --primary-color-shade: hsl(241, 75%, 64%, 0.42);
+  --primary-color: hsl(153, 65%, 46%);
+  --primary-color-highlight: hsl(153, 65%, 52%);
+  --primary-color-shade: hsl(153, 65%, 46%, 0.42);
 
   --alternative-color: hsl(179, 50%, 58%);
   --alternative-color-dark: hsl(179, 80%, 75%);
@@ -37,21 +37,21 @@
   --secondary-text-color: var(--gray-400);
   --tertiary-text-color: var(--gray-500);
   --contrast-text-color: #fff;
-  --primary-text-color: hsl(241, 82%, 82%);
+  --primary-text-color: hsl(153, 65%, 60%);
 
   --link-color: var(--primary-text-color);
-  --secondary-link-color: hsla(241, 82%, 82%, 0.8);
+  --secondary-link-color: hsla(153, 65%, 60%, 0.8);
 
   --icon-color: var(--text-color);
 
   --border-color: var(--contrast-30);
   --secondary-border-color: var(--contrast-20);
 
-  --body-color: hsl(241, 15%, 14%);
+  --body-color: hsl(0, 0%, 11%);
   --body-color-contrast: var(--contrast-10);
 
   /* Focus */
-  --focus-outline: 2px solid hsl(241, 100%, 78%);
+  --focus-outline: 2px solid hsl(153, 70%, 52%);
   --focus-outline-offset: 2px;
 
   /* Shadows */
@@ -106,15 +106,15 @@
 }
 
 :root {
-  --modal-overlay-bg-color: hsla(229, 21%, 16%, 0.55);
-  --modal-container-bg-color: hsl(241, 20%, 20%);
+  --modal-overlay-bg-color: hsla(0, 0%, 8%, 0.55);
+  --modal-container-bg-color: hsl(0, 0%, 14%);
   --modal-container-border-color: var(--contrast-30);
   --modal-border-radius: var(--border-radius-lg);
   --modal-box-shadow: none;
 }
 
 :root {
-  --menu-bg-color: hsl(241, 20%, 20%);
+  --menu-bg-color: hsl(0, 0%, 14%);
   --menu-border-color: var(--contrast-30);
   --menu-border-radius: var(--border-radius);
   --menu-box-shadow: none;
