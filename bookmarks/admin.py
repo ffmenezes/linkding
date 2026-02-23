@@ -75,8 +75,8 @@ def background_task_view(request):
 
 
 class LinkdingAdminSite(AdminSite):
-    site_header = "linkding administration"
-    site_title = "linkding Admin"
+    site_header = "TrinchieraLinks administration"
+    site_title = "TrinchieraLinks Admin"
 
     def get_urls(self):
         urls = super().get_urls()

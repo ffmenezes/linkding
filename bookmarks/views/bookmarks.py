@@ -57,7 +57,7 @@ def index(request: HttpRequest):
     return render_bookmarks_view(
         request,
         {
-            "page_title": "Bookmarks - Linkding",
+            "page_title": "Bookmarks - TrinchieraLinks",
             "bookmark_list": bookmark_list,
             "bundles": bundles,
             "tag_cloud": tag_cloud,
@@ -96,7 +96,7 @@ def archived(request: HttpRequest):
     return render_bookmarks_view(
         request,
         {
-            "page_title": "Archived bookmarks - Linkding",
+            "page_title": "Archived bookmarks - TrinchieraLinks",
             "bookmark_list": bookmark_list,
             "bundles": bundles,
             "tag_cloud": tag_cloud,
@@ -133,7 +133,7 @@ def shared(request: HttpRequest):
     return render_bookmarks_view(
         request,
         {
-            "page_title": "Shared bookmarks - Linkding",
+            "page_title": "Shared bookmarks - TrinchieraLinks",
             "bookmark_list": bookmark_list,
             "tag_cloud": tag_cloud,
             "details": bookmark_details,
@@ -157,7 +157,7 @@ def shared_update(request: HttpRequest):
 
 def render_bookmarks_view(request: HttpRequest, context):
     if context["details"]:
-        context["page_title"] = "Bookmark details - Linkding"
+        context["page_title"] = "Bookmark details - TrinchieraLinks"
 
     if turbo.is_frame(request, "details-modal"):
         return turbo.frame(request, "bookmarks/details/modal.html", context)

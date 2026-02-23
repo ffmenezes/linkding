@@ -4,9 +4,9 @@ from django.http import JsonResponse
 
 def manifest(request):
     response = {
-        "short_name": "linkding",
-        "name": "linkding",
-        "description": "Self-hosted bookmark service",
+        "short_name": "TrinchieraLinks",
+        "name": "TrinchieraLinks",
+        "description": "Links úteis curados pela Trincheira",
         "start_url": "bookmarks",
         "display": "standalone",
         "scope": "/" + settings.LD_CONTEXT_PATH,
